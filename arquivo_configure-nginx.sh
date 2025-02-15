@@ -58,3 +58,4 @@ sudo apt-get install -y nginx
 
 </html>
 <!-- Fim do documento HTML -->
+| sudo tee -a /var/www/html/index.html
