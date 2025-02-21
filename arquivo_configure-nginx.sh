@@ -13,7 +13,7 @@ sudo add-apt-repository multiverse
 sudo apt-get install -y nginx
 
 # Set the home page.
-<!DOCTYPE html>
+echo"<!DOCTYPE html>
 <!-- Declaração do tipo de documento, indicando que este é um arquivo HTML5 -->
 
 <html lang="pt-br">
@@ -57,5 +57,5 @@ sudo apt-get install -y nginx
 <!-- Fim do corpo do documento -->
 
 </html>
-<!-- Fim do documento HTML -->
+<!-- Fim do documento HTML -->"
 | sudo tee -a /var/www/html/index.html
